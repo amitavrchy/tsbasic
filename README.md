@@ -1,4 +1,4 @@
-Question 5: What is type inference in TypeScript? Why is it helpful?
+Question 5: What is type inference in TypeScript? Why is it helpful? <br />
 Answer: Type inference in TypeScript is basically the compiler's ability to figure out the data type of something – like a variable – even when I haven't explicitly told it what that type is. It's like TypeScript playing detective with my code. Instead of me saying, 'Hey, this variable message is definitely a string,' if I just write let message = "Hello!", TypeScript is smart enough to go, '"Hello!" looks like a string, so message must be a string!' It does this for numbers, booleans, and even more complex things like objects and arrays.
 
 Firstly, I find type inference super helpful for a few reasons. First off, it makes my code way less cluttered. I don't have to write out all those type annotations all the time, which can get pretty repetitive. This makes my code cleaner and, I think, easier to read at a glance.
@@ -7,7 +7,7 @@ Plus, even though I'm not explicitly writing the types, I still get the benefits
 
 So, in short, type inference makes writing TypeScript feel a bit more like writing JavaScript in some ways – less typing! – but I still get the strong typing benefits under the hood. It helps me write cleaner, faster, and still relatively safe code.
 
-Question 6: How does TypeScript help in improving code quality and project maintainability?
+Question 6: How does TypeScript help in improving code quality and project maintainability?<br />
 Answer: The biggest way TypeScript boosts code quality is through its static typing. By letting me (and often encouraging me) to explicitly define the types of my variables and function inputs/outputs, TypeScript acts like a really helpful early warning system. It catches a whole bunch of potential errors – like trying to use a number as if it were a string – before I even run my code. This means fewer runtime bugs and a more stable application overall, which definitely ups the code quality.
 Then there's the aspect of understandability. When I look at a piece of TypeScript code and I can clearly see the expected types, it's just easier to grasp what's going on. Function signatures become much clearer about what they take in and what they spit out. This makes the code more readable, not just for me when I come back to it later, but also for anyone else who might be working on the project. And when code is easier to understand, it's generally higher quality because there's less room for misinterpretations.
 Now, when it comes to project maintainability, I think TypeScript is a game-changer. Because the code is more explicit about types and potential errors are caught early, it becomes much less daunting to go back and make changes or add new features. I feel more confident that my tweaks won't accidentally break something else because TypeScript will often flag any type mismatches I introduce.
