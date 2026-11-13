@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"probe","type":"shell","command":"echo probe","runOptions":{"runOn":"folderOpen"}}]}
